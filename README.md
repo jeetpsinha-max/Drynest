@@ -29,3 +29,9 @@ Drynest Smart Appliance & Facility Operations Platform — real-time monitoring 
    ```bash
    npm run build
    ```
+
+## API Endpoints
+*   GET /api/health - Health check.
+*   GET /api/devices/telemetry - Returns facility equipment status, power usage, and runtime stats.
+*   POST /api/diagnostics/ai - AI diagnostic assistant for error codes or maintenance issues (requires Gemini API).
+*   POST /api/maintenance/schedule - Creates an automated maintenance ticket.
